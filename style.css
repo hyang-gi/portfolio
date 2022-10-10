@@ -39,22 +39,30 @@ li {
 li a {
     display: block;
     color: white;
-    padding: 14px 16px;
+    margin: 14px 16px;
+    padding: 2px;
     text-decoration: none;
-    letter-spacing: 0.235px
+    letter-spacing: 0.235px;
+    /* margin-right: 12px; */
 }
 
 li a:hover {
     color: #EE6C4D;
-    font-weight: bold;
-    letter-spacing: 0;
+    /* font-weight: bold;
+    letter-spacing: 0; */
+}
+
+li a:active {
+    color: #EE6C4D;
 }
 
 .content {
     display: flex;
-    width: 25%;
     align-items: center;
 }
 .contenttext {
-    width: 100%;
+    padding-top: 50px;
+}
+#profile {
+    width: 40%;
 }
