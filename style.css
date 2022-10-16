@@ -46,7 +46,7 @@ li a {
     /* margin-right: 12px; */
 }
 
-li a:hover {
+li a:hover, a:active {
     color: #EE6C4D;
     /* font-weight: bold;
     letter-spacing: 0; */
