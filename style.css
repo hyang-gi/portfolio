@@ -141,8 +141,11 @@ a.active {
     margin-right: auto;
 }
 
+table {
+    border-collapse:collapse;
+}
 td {
-    border: 1px solid white;
+    border: 1px solid #e4e4e4;
     text-align: center;
 }
 
