@@ -1,13 +1,13 @@
 body {
     font-family: Lato, Helvetica, sans-serif;
     background-color: #121212;
-    color: #e2e2e2;
+    color: #f2f2f2;
 
 }
 
 /* .main {
     background-color: #1a1a1a;
-    color: #e2e2e2;
+    color: #f2f2f2;
 } */
 .header {
     height: 120px;
@@ -23,7 +23,7 @@ body {
 }
 
 #navbarName {
-    color: #e2e2e2;
+    color: #f2f2f2;
     padding-left: 12px;
 }
 
@@ -44,7 +44,7 @@ li {
 
 li a {
     display: block;
-    color: #e2e2e2;
+    color: #f2f2f2;
     margin: 14px 16px;
     padding: 4px;
     text-decoration: none;
@@ -53,17 +53,17 @@ li a {
 }
 
 .project-link {
-    color: #e2e2e2;
+    color: #f2f2f2;
     text-decoration: none;
 }
 
 .text-color {
-    color: #e2e2e2;
+    color: #f2f2f2;
 }
 
 
 .icon-link {
-    color: #e2e2e2;
+    color: #f2f2f2;
 }
 a:hover {
     color: #91C7B1;
