@@ -61,6 +61,10 @@ li a {
     color: #e2e2e2;
 }
 
+
+.icon-link {
+    color: #e2e2e2;
+}
 a:hover {
     color: #91C7B1;
     /* font-weight: bold;
