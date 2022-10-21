@@ -1,13 +1,8 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', 'PT Serif';
     background-color: #121212;
     color: #f2f2f2;
 
-}
-
-.serif-font {
-    font-family: 'Playfair Display', 'PT Serif' ;
-    color: #f2f2f2;
 }
 
 /* .main {
@@ -51,7 +46,7 @@ li a {
     display: block;
     color: #f2f2f2;
     margin: 14px 16px;
-    padding: 4px;
+    padding: 8px;
     text-decoration: none;
     letter-spacing: 0.235px;
     /* margin-right: 12px; */
@@ -72,7 +67,7 @@ li a {
     font-size: 28px;
 }
 a:hover {
-    color: #91C7B1;
+    color: #8BE8CB;
     /* font-weight: bold;
     letter-spacing: 0; */
 }
