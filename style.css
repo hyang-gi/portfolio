@@ -66,6 +66,7 @@ li a {
     color: #f2f2f2;
     font-size: 28px;
 }
+
 a:hover {
     color: #8BE8CB;
     /* font-weight: bold;
@@ -93,18 +94,18 @@ a.active {
 .main-wrapper {
     position: relative;
     min-height: 100vh;
-  }
-  
-  .content-wrapper {
-    padding-bottom: 2.5rem; 
-  }
-  
-  .footer {
+}
+
+.content-wrapper {
+    padding-bottom: 2.5rem;
+}
+
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-  }
+}
 
 .copyright {
     display: inline;
@@ -117,7 +118,7 @@ a.active {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1;
-    grid-gap:5px;
+    grid-gap: 5px;
 }
 
 .writing {
@@ -156,8 +157,9 @@ a.active {
 }
 
 table {
-    border-collapse:collapse;
+    border-collapse: collapse;
 }
+
 td {
     border: 1px solid #e4e4e4;
     text-align: center;
@@ -172,9 +174,11 @@ td {
     padding: 48px 124px 48px 124px;
     justify-content: center;
 }
+
 .writing-img {
     width: 25%;
 }
+
 .writing-content {
     width: 100%;
 }
@@ -182,6 +186,20 @@ td {
 .spacing1 {
     padding: 0px 48px 0px 48px;
 }
+
 .writing-title {
     margin-top: 0px;
+}
+
+.books-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.books-row img {
+    margin: 4px;
+    vertical-align: middle;
+    width: 25%;
+    height: auto;
 }
