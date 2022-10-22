@@ -93,7 +93,7 @@ a.active {
 }
 
 .content-wrapper {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .footer {
@@ -185,6 +185,14 @@ td {
     margin-top: 0px;
     font-size: 20px;
 }
+
+.resume-title {
+    font-size: 24px;
+    text-decoration: underline overline;
+    text-align: center;
+    padding: 48px 0px 16px 0px;
+}
+
 .writing-text {
     margin-top: 0px;
     margin-left: 24px;
