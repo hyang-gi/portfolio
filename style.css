@@ -109,8 +109,7 @@ a.active {
     float: right;
 }
 
-.ux-gallery,
-.gd-gallery {
+.ux-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1;
@@ -133,7 +132,7 @@ a.active {
 .container {
     width: 90%;
     margin: auto;
-    padding-top: 24px;
+    padding-top: 48px;
 }
 
 .spacing {
@@ -196,6 +195,7 @@ td {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 48px;
 }
 
 .books-row img {
