@@ -127,11 +127,13 @@ a.active {
 .project-img {
     width: 100%;
     height: 80%;
+    margin-bottom: 4px;
 }
 
 .container {
     width: 90%;
     margin: auto;
+    padding-top: 24px;
 }
 
 .spacing {
@@ -143,6 +145,7 @@ a.active {
     padding-top: 24px;
     text-align: center;
     text-decoration: underline overline;
+    font-size: 36px;
     /* margin-right: 36px; */
 }
 
@@ -201,17 +204,17 @@ td {
 }
 
 .card-title {
-    padding: 15px;
-    font-size: 25px;
+    padding: 12px;
+    font-size: 24px;
 }
 
 .card-image {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 
 .card-text {
-    padding: 0 15px 15px;
+    padding: 0 16px 16px;
     line-height: 1.5;   
 }
 
