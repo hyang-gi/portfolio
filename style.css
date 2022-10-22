@@ -170,16 +170,12 @@ td {
 
 .writing-container {
     display: flex;
-    padding: 48px 124px 48px 124px;
+    padding: 48px 124px 0px 124px;
     justify-content: center;
 }
 
 .writing-img {
     width: 25%;
-}
-
-.writing-content {
-    width: 100%;
 }
 
 .spacing1 {
@@ -188,6 +184,12 @@ td {
 
 .writing-title {
     margin-top: 0px;
+    font-size: 20px;
+}
+.writing-text {
+    margin-top: 0px;
+    margin-left: 24px;
+    margin-right: 48px;
 }
 
 .books-row {
