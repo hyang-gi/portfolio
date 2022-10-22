@@ -4,7 +4,10 @@ body {
     color: #f2f2f2;
 
 }
-
+.main-wrapper {
+    position: relative;
+    min-height: 100vh;
+}
 .header {
     height: 120px;
     width: 100%;
@@ -79,17 +82,12 @@ a.active {
     align-items: center;
 }
 
-.contenttext {
+.content-text {
     padding-top: 50px;
 }
 
 #profile {
     width: 40%;
-}
-
-.main-wrapper {
-    position: relative;
-    min-height: 100vh;
 }
 
 .content-wrapper {
@@ -139,6 +137,9 @@ a.active {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+.spacing1 {
+    padding: 0px 48px 0px 48px;
+}
 
 .content-titles {
     padding-top: 24px;
@@ -175,10 +176,6 @@ td {
 
 .writing-img {
     width: 25%;
-}
-
-.spacing1 {
-    padding: 0px 48px 0px 48px;
 }
 
 .writing-title {
