@@ -4,10 +4,12 @@ body {
     color: #f2f2f2;
 
 }
+
 .main-wrapper {
     position: relative;
     min-height: 100vh;
 }
+
 .header {
     height: 120px;
     width: 100%;
@@ -68,8 +70,6 @@ li a {
 
 a:hover {
     color: #8BE8CB;
-    /* font-weight: bold;
-    letter-spacing: 0; */
 }
 
 a.active {
@@ -137,6 +137,7 @@ a.active {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 .spacing1 {
     padding: 0px 48px 0px 48px;
 }
@@ -187,9 +188,8 @@ td {
 
 .writing-text {
     margin-top: 0px;
-    margin-left: 24px;
-    margin-right: 48px;
-    margin-bottom: 64px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid white;
 }
 
 .books-row {
@@ -226,7 +226,6 @@ td {
     background-color: #222;
     border-radius: 4px;
     text-align: left;
-    /* box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.3);  */
 }
 
 .intro-title {
