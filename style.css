@@ -50,18 +50,12 @@ li a {
     padding: 8px;
     text-decoration: none;
     letter-spacing: 0.235px;
-    /* margin-right: 12px; */
 }
 
 .project-link {
     color: #f2f2f2;
     text-decoration: none;
 }
-
-.text-color {
-    color: #f2f2f2;
-}
-
 
 .icon-link {
     color: #f2f2f2;
@@ -77,6 +71,7 @@ a.active {
     /*color: #CE7DA5;*/
 }
 
+/*home page image + text styling */
 .content {
     display: flex;
     align-items: center;
@@ -110,15 +105,29 @@ a.active {
 .ux-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1;
     grid-gap: 15px;
 }
 
-.writing {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1;
-    grid-gap: 5px;
+.card-title {
+    display: inline-block;
+    padding: 0px 12px 0px 12px;
+    font-size: 24px;
+}
+
+.card-image {
+    margin-bottom: 16px;
+}
+
+
+.card-text {
+    padding: 0 16px 16px;
+    line-height: 1.5;
+}
+
+.card-content {
+    background-color: #222;
+    border-radius: 4px;
+    text-align: left;
 }
 
 .project-img {
@@ -142,6 +151,7 @@ a.active {
     padding: 0px 48px 0px 48px;
 }
 
+/*page headings*/
 .content-titles {
     padding-top: 24px;
     text-align: center;
@@ -170,8 +180,13 @@ td {
 
 .writing-container {
     padding: 48px 32% 0px 32%;
-    justify-content: center;
 
+}
+
+.writing-text {
+    margin-top: 0px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid white;
 }
 
 .writing-title {
@@ -184,12 +199,6 @@ td {
     text-decoration: underline;
     text-align: center;
     padding: 48px 0px 16px 0px;
-}
-
-.writing-text {
-    margin-top: 0px;
-    margin-bottom: 36px;
-    border-bottom: 1px solid white;
 }
 
 .books-row {
@@ -206,28 +215,7 @@ td {
     height: auto;
 }
 
-.card-title {
-    display: inline-block;
-    padding: 0px 12px 0px 12px;
-    font-size: 24px;
-}
-
-.card-image {
-    margin-bottom: 16px;
-}
-
-
-.card-text {
-    padding: 0 16px 16px;
-    line-height: 1.5;
-}
-
-.card-content {
-    background-color: #222;
-    border-radius: 4px;
-    text-align: left;
-}
-
+/*font sizes*/
 .intro-title {
     font-size: 48px;
 }
