@@ -146,7 +146,6 @@ a.active {
     text-align: center;
     text-decoration: underline overline;
     font-size: 36px;
-    /* margin-right: 36px; */
 }
 
 .table-center {
@@ -173,10 +172,6 @@ td {
     justify-content: center;
 
 }
-/* 
-.writing-img {
-    width: 25%;
-} */
 
 .writing-title {
     margin-top: 0px;
